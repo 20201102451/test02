@@ -11,3 +11,6 @@ def index3(request):
 def index2(request):
     return HttpResponse("这是测试首页")
 >>>>>>> origin/master
+
+def indexSSL(request):
+    return HttpResponse("这是SSL提交")
