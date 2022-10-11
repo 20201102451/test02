@@ -29,6 +29,8 @@ def indexZhang(request):
 
 def indexZhang2(request):
     return HttpResponse("这是Zhang2提交")
+def indexLiang(request):
+    return HttpResponse("这是Liang提交")
 
 def indextestError(request):
     return HttpResponse("这是演示远程多人提交冲突！")
