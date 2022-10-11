@@ -12,5 +12,9 @@ def index2(request):
     return HttpResponse("这是测试首页")
 >>>>>>> origin/master
 
+def indexFan(request):
+    return HttpResponse("这是提交一")
+
+
 def indexSSL(request):
     return HttpResponse("这是SSL提交")
