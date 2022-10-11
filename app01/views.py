@@ -19,3 +19,5 @@ def indexFan02(request):
 
 def indexSSL(request):
     return HttpResponse("这是SSL提交")
+def indexZhang(request):
+    return HttpResponse("这是Zhang提交")
