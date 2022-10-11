@@ -15,6 +15,9 @@ def index2(request):
 def indexFan(request):
     return HttpResponse("这是提交一")
 
+def indexFan02(request):
+    return HttpResponse("这是提交二")
+
 
 def indexSSL(request):
     return HttpResponse("这是SSL提交")

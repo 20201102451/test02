@@ -23,4 +23,5 @@ urlpatterns = [
     path('index3',app01.views.index3),
     path('index/Fan/',app01.views.indexFan),
     path('index/SSL/',app01.views.indexSSL),
+    path('index/Fan/02',app01.views.indexFan02),
 ]
