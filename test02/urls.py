@@ -25,4 +25,7 @@ urlpatterns = [
     path('index/SSL/',app01.views.indexSSL),
     path('index/Fan/02',app01.views.indexFan02),
     path('index/Zhang/',app01.views.indexZhang),#author:Zhang
+    path('index/Fan/',app01.views.indexfan),
+    path('index/SSL/',app01.views.indexssl),
+    path('index/Fan/02',app01.views.indexfan02),
 ]
