@@ -26,3 +26,6 @@ def indexssl(request):
     return HttpResponse("这是SSL提交")
 def indexZhang(request):
     return HttpResponse("这是Zhang提交")
+
+def indexZhang2(request):
+    return HttpResponse("这是Zhang2提交")
