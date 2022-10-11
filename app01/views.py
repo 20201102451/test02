@@ -29,3 +29,5 @@ def indexZhang(request):
 
 def indexZhang2(request):
     return HttpResponse("这是Zhang2提交")
+def indexLiang(request):
+    return HttpResponse("这是Liang提交")
