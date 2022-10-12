@@ -42,3 +42,5 @@ def indextrain1(request):
 
 def indexerror2(request):
     return HttpResponse("远程多人冲突测试")
+def Error3(request):
+    return HttpResponse("心海我老婆")
