@@ -40,5 +40,5 @@ urlpatterns = [
     path('index/error5', app01.views.error5),
     path('index/indexadd', app01.views.indexadd),
     path('index/error6', app01.views.error6),
-    path('index/error7', app01.views.error6),
+    path('index/error7', app01.views.error7),
 ]
