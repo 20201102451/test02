@@ -37,3 +37,6 @@ def indextestError(request):
 
 def indextrain1(request):
     return HttpResponse("ssl第一次提交")
+
+def indexerror2(request):
+    return HttpResponse("远程多人冲突测试")
