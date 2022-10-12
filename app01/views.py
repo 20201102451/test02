@@ -47,3 +47,6 @@ def Error3(request):
 
 def indexerror3(request):
     return HttpResponse("远程多人冲突测试")
+
+def indexadd(request):
+    return HttpResponse("本地合并分支")
