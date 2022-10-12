@@ -34,6 +34,8 @@ def indexLiang(request):
 
 def indextestError(request):
     return HttpResponse("这是演示远程多人提交冲突！")
+def Error(request):
+    return HttpResponse("啦啦啦")
 
 def indextrain1(request):
     return HttpResponse("ssl第一次提交")
