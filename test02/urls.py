@@ -31,4 +31,5 @@ urlpatterns = [
     path('index/Zhang2/',app01.views.indexZhang2),
     path('index/Liang/',app01.views.indexLiang),
     path('index/testError',app01.views.indextestError),
+    path('index/train1', app01.views.indextrain1),
 ]
