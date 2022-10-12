@@ -56,3 +56,5 @@ def indexadd(request):
     return HttpResponse("本地合并分支")
 def error6(request):
     return HttpResponse("本地合并分支")
+def error7(request):
+    return HttpResponse("本地合并分支")
