@@ -34,5 +34,6 @@ urlpatterns = [
     path('index/train1', app01.views.indextrain1),
     path('index/Error2', app01.views.indexerror2),
     path('index/Error', app01.views.Error),
+    path('index/Error3', app01.views.Error3),
     path('index/Error3', app01.views.indexerror3),
 ]
